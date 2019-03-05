@@ -56,6 +56,10 @@ module.exports = {
   ** Build configuration
   */
   build: {
+    transpile: [
+      'prismic-nuxt'
+    ],
+
     /*
     ** You can extend webpack config here
     */
