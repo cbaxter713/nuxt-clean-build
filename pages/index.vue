@@ -10,7 +10,7 @@
 export default {
   data() {
     return {
-      testPurpose: 'config transpile prismic-nuxt'
+      testPurpose: 'polyfill.io global'
     }
   },
   mounted() {
