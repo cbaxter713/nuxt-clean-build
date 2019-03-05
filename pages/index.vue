@@ -10,7 +10,7 @@
 export default {
   data() {
     return {
-      testPurpose: 'Testing plugin inclusion'
+      testPurpose: 'Testing vuex'
     }
   },
   mounted() {
