@@ -34,6 +34,10 @@ module.exports = {
   ** Plugins to load before mounting the App
   */
   plugins: [
+    '~plugins/mediaQueries',
+    { src: '~plugins/modals', ssr: false },
+    '~plugins/touchEvents',
+    '~plugins/globalHelpersMixin'
   ],
 
   /*

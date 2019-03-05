@@ -10,7 +10,7 @@
 export default {
   data() {
     return {
-      testPurpose: 'Testing devDependencies'
+      testPurpose: 'Testing plugin inclusion'
     }
   },
   mounted() {
