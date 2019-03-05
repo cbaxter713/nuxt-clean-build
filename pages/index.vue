@@ -1,7 +1,7 @@
 <template>
   <section class="container">
     <h1>A Clean Nuxt Build</h1>
-    <h2>{{testPurpose}}</h2>
+    <h2>TESTING: {{testPurpose}}</h2>
   </section>
 </template>
 
@@ -10,7 +10,7 @@
 export default {
   data() {
     return {
-      testPurpose: 'Testing dashify'
+      testPurpose: 'Prismic'
     }
   },
   mounted() {

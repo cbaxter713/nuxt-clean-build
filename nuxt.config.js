@@ -1,4 +1,6 @@
-const pkg = require('./package')
+const pkg = require('./package');
+const prismicConfig = require('./prismic-configuration');
+const Prismic = require('prismic-javascript');
 
 
 module.exports = {
@@ -44,6 +46,10 @@ module.exports = {
   ** Nuxt.js modules
   */
   modules: [
+    ['prismic-nuxt', {
+      endpoint: prismicConfig.apiEndpoint,
+      linkResolver: prismicConfig.linkResolver
+    }]
   ],
 
   /*
