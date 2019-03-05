@@ -10,7 +10,7 @@
 export default {
   data() {
     return {
-      testPurpose: 'Testing vuex'
+      testPurpose: 'Testing dashify'
     }
   },
   mounted() {
