@@ -1,8 +1,6 @@
 <template>
   <section class="container">
     <h1>A Clean Nuxt Build</h1>
-    <nuxt-link to="route1">Route 1</nuxt-link>
-    <nuxt-link to="route2">Route 2</nuxt-link>
   </section>
 </template>
 
