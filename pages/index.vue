@@ -1,35 +1,14 @@
 <template>
   <section class="container">
-    <div>
-      <logo />
-      <h1 class="title">
-        nuxt-clean-build
-      </h1>
-      <h2 class="subtitle">
-        My excellent Nuxt.js project
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-        >Documentation</a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-        >GitHub</a>
-      </div>
-    </div>
+    <h1>A Clean Nuxt Build</h1>
   </section>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
 
 export default {
-  components: {
-    Logo
+  mounted() {
+    console.log('!!!mounted on root route')
   }
 }
 </script>

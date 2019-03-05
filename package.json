@@ -8,7 +8,9 @@
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "nuxt generate"
+    "generate": "nuxt generate",
+    "deploy": "git push heroku master",
+    "heroku-postbuild": "npm run build"
   },
   "dependencies": {
     "cross-env": "^5.2.0",
